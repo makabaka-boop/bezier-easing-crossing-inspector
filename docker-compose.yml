@@ -1,0 +1,7 @@
+services:
+  easing:
+    build: ./easing
+    image: easing-editor:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
